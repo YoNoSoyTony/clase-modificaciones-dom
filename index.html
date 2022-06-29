@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="index.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>SuperStore! 👩🏼‍🌾🧑🏽‍🌾</h1>
+    <div class="container">
+      <div class="product-display">
+        <div class="card">
+          <div class="product-image">🍎</div>
+          <div class="description">
+            <h3>Manzana Washington</h3>
+            <p>$15 / Kg</p>
+            <button id="apple-add">Add to cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product-image">🍅</div>
+          <div class="description">
+            <h3>Tomate Saladet</h3>
+            <p>$22 / Kg</p>
+            <button id="tomato-add">Add to cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product-image">🍌</div>
+          <div class="description">
+            <h3>Platano</h3>
+            <p>$18 / Kg</p>
+            <button id="banana-add">Add to cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product-image">🥑</div>
+          <div class="description">
+            <h3>Aguacate</h3>
+            <p>$8 / Kg</p>
+            <button id="avocado-add">Add to cart</button>
+          </div>
+        </div>
+        <div class="card">
+          <div class="product-image">🥭</div>
+          <div class="description">
+            <h3>Mango Petacon</h3>
+            <p>$25 / Kg</p>
+            <button id="mango-add">Add to cart</button>
+          </div>
+        </div>
+      </div>
+      <div class="cart">
+        <h3>Cart 🛒</h3>
+        <div class="cart-items">
+          <div class="cart-item" id="apple-cart">
+            <h3>🚀</h3>
+            <b>Manzana</b>
+            <button id="apple-less">➖</button>
+            <b id="apple-cart-quantity">0</b>
+            <button id="apple-more">➕</button>
+          </div>
+          <div class="cart-item" id="tomato-cart">
+            <h3>🚀</h3>
+            <b>Tomate</b>
+            <button id="tomato-less">➖</button>
+            <b id="tomato-cart-quantity">0</b>
+            <button id="tomato-more">➕</button>
+          </div>
+          <div class="cart-item" id="banana-cart">
+            <h3>🚀</h3>
+            <b>Platano</b>
+            <button id="banana-less">➖</button>
+            <b id="banana-cart-quantity">0</b>
+            <button id="banana-more">➕</button>
+          </div>
+          <div class="cart-item" id="avocado-cart">
+            <h3>🚀</h3>
+            <b>Aguacate</b>
+            <button id="avocado-less">➖</button>
+            <b id="avocado-cart-quantity">0</b>
+            <button id="avocado-more">➕</button>
+          </div>
+          <div class="cart-item" id="mango-cart">
+            <h3>🚀</h3>
+            <b>Mango</b>
+            <button id="mango-less">➖</button>
+            <b id="mango-cart-quantity">0</b>
+            <button id="mango-more">➕</button>
+          </div>
+        </div>
+        <h3 id="total">Total: $0</h3>
+      </div>
+    </div>
+  </body>
+</html>
